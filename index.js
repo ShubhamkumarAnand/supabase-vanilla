@@ -17,5 +17,3 @@ const { data: read_posts, read_error } = await supabase
 
 console.log(read_posts)
 console.log(read_error);
-
-console.log("\n-----------------Inserting posts----------------------\n")

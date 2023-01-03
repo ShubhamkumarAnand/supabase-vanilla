@@ -11,6 +11,6 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 const { data: post, error } = await supabase
   .from('posts')
   .delete()
-  .eq('id',15)
+  .eq('id',11)
 
 console.log("Data Deleted Successfully")
