@@ -1,0 +1,17 @@
+{
+	"name": "supabase-vanilla",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@supabase/supabase-js": "^2.2.3",
+		"dotenv": "^16.0.3"
+	}
+}
