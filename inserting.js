@@ -14,8 +14,8 @@ const { data: insert_posts, insert_error } = await supabase
   .from('posts')
   .insert([
     {
-      body: 'This is a second post from the Js Client',
-      likes_count: 1,
+      body: 'This is a post from the Js Client to Fire the subscription',
+      likes_count: 11,
       username: 'imskanand',
     }
   ])
