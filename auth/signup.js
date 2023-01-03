@@ -11,8 +11,8 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 //^ User Authentication in the database
 
 const { user, error } = await supabase.auth.signUp({
-  email: 'the.anand3099+test011@gmail.com',
-  password: 'the.anand30'
+  email: 'example+test011@gmail.com',
+  password: 'password123'
 })
 
 console.log(user)
